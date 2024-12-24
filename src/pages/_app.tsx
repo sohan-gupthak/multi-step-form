@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app'
 import { ThemeProvider } from 'next-themes'
 import { ToastProvider, ToastViewport } from "@/components/ui/toast"
-import '@/styles/globals.css'
+import '@/styles/output.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
