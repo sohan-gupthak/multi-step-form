@@ -6,6 +6,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: '/multi-step-form',
+  assetPrefix: '/multi-step-form/',
 }
 
 module.exports = nextConfig
